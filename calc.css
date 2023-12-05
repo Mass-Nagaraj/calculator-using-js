@@ -1,0 +1,60 @@
+*{
+    padding:0;
+    margin:0;
+   background-color: azure;
+    box-sizing: border-box;
+    outline: none;
+    font-family:'Courier New', Courier, monospace;
+}
+.connect {
+    background-color: rgb(212, 232, 240);
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 30px;
+    margin:250px auto;
+    width:280px;
+
+}
+.calculator{
+    border-radius: 15px;
+    padding:15px;
+    box-shadow: inset 2px 2px 2px 2px rgb(255, 244, 244),
+                      5px 5px 12px gainsboro;
+    display: grid;    /*It is use to line by line execute*/ 
+    grid-template-columns: repeat(4,50px) ;
+    box-sizing: border-box;
+    
+}
+input{
+
+    grid-column: span 4;    
+    height: 50px;
+    border:none;
+    color:gray;
+    font-size: 40px;
+    text-align: end;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:20px;
+
+}
+button{
+    height:58px;
+    width:58px;
+    border:none;
+    background-color: rgb(235, 235, 235);
+    box-shadow: -5px -5px 12px white,
+                 5px 5px 12px rgb(0, 0, 0,.16);
+    border-radius: 20px;
+   
+}
+.equals{
+    width:90px;
+    border-radius: 40px;
+
+}
+
+
